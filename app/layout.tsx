@@ -13,13 +13,12 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://08-zustand-gamma-bice.vercel.app"),
   title: "NoteHub",
   description: "Created by GoIT",
   openGraph: {
     title: "NoteHub",
     description: "Created by GoIT",
-    url: "/",
+    url: "https://08-zustand-gamma-bice.vercel.app",
     siteName: "NoteHub",
     type: "website",
     locale: "en_US",
