@@ -13,8 +13,25 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://08-zustand-gamma-bice.vercel.app"),
   title: "NoteHub",
   description: "Created by GoIT",
+  openGraph: {
+    title: "NoteHub",
+    description: "Created by GoIT",
+    url: "/",
+    siteName: "NoteHub",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
+        width: 1200,
+        height: 630,
+        alt: "NoteHub Open Graph Image",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
